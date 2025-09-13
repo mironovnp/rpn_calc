@@ -1,5 +1,5 @@
 #include <iostream>
-#include "rpn.h"
+#include "../include/rpn.h"
 #include <stdexcept>
 int main() {
     std::string expression;
