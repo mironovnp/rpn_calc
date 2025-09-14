@@ -1,0 +1,10 @@
+cmake-build-debug
+.dockerignore
+.git
+.gitignore
+.idea
+.vscode
+Dockerfile
+README.md
+cmake
+build
