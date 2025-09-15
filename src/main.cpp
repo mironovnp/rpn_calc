@@ -1,5 +1,5 @@
 #include <iostream>
-#include "/home/mironovnp/rpn_calc/rpn_calculator/include/rpn.h"
+#include "../include/rpn.h"
 #include <stdexcept>
 int main() {
     std::string expression;

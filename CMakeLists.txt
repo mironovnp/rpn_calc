@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 include_directories(include)
 
-add_executable(rpn_calculator src/main.cpp src/rpn.cpp include/rpn.h)
+add_executable(rpn_calculator src/main.cpp src/rpn.cpp ../include/rpn.h)
 
 enable_testing()
 add_subdirectory(tests)

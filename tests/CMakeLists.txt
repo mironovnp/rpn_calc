@@ -7,7 +7,7 @@ FetchContent_Declare(
 
 FetchContent_MakeAvailable(googletest)
 
-add_executable(rpn_tests test_rpn.cpp)
+add_executable(rpn_tests test_rpn.cpp ../include/rpn.h)
 target_link_libraries(rpn_tests PRIVATE gtest_main)
 target_include_directories(rpn_tests PRIVATE ${CMAKE_SOURCE_DIR}/include)
 

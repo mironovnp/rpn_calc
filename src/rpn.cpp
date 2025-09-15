@@ -1,4 +1,4 @@
-#include "/home/mironovnp/rpn_calc/rpn_calculator/include/rpn.h"
+#include "../include/rpn.h"
 #include <stdexcept>
 #include <sstream>
 #include <vector>
